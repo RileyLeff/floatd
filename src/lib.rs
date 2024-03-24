@@ -23,6 +23,8 @@ use std::fmt::Debug;
 #[cfg(feature = "std")]
 use std::fmt::Display;
 
+/// That's literally it, just Display + Debug + Float
 pub trait FloatD: Display + Debug + Float {}
 
+/// Empty impl
 impl<T: Display + Debug + Float> FloatD for T {}
