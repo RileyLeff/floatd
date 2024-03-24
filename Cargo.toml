@@ -2,6 +2,14 @@
 name = "floatd"
 version = "0.1.0"
 edition = "2021"
+description = "FloatD is just num_traits::Float + Debug + Display."
+documentation = "https://docs.rs/floco/latest/floco/index.html"
+readme = "README.md"
+homepage = "https://github.com/RileyLeff/floatd"
+repository = "https://github.com/RileyLeff/floatd"
+license = "MIT OR Apache-2.0"
+keywords = ["float", "debug", "display", "utility"]
+categories = ["no-std", "mathematics", "development-tools", "data-structures"]
 
 [dependencies]
 num-traits = { version = "0.2.18", default-features = false, features = ["libm"] }
